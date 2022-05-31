@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Exiled Event</Title>
+            <Author>Cegla</Author>
+            <Description>Creates an Exiled Event Function</Description>
+            <Shortcut>ev</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[$Access$ void On$Name$($EventType$ ev)
+                {
+
+                }]]>
+            </Code>
+            <Declarations>
+                <Literal>
+                    <ID>Access</ID>
+                    <Default>public</Default>
+                    <ToolTip>Accessibility of provided function</ToolTip>
+                </Literal>
+                <Literal>
+                    <ID>Name</ID>
+                    <Default>Died</Default>
+                    <ToolTip>Name of event</ToolTip>
+                </Literal>
+                <Literal>
+                    <ID>EventType</ID>
+                    <Default>DiedEventArgs</Default>
+                    <ToolTip>Type of event</ToolTip>
+                </Literal>
+            </Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

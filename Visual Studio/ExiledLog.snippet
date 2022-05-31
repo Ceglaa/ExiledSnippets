@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>Log</Title>
+            <Author>Cegla</Author>
+            <Description>Logs a message in the console</Description>
+            <Shortcut>elog</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="CSharp">
+                <![CDATA[Log.$LogType$("$Message$");]]>
+            </Code>
+            <Declarations>
+                <Literal>
+                    <ID>LogType</ID>
+                    <Default>Debug</Default>
+                    <ToolTip>Log type: Debug, Info, Warn, Error</ToolTip>
+                </Literal>
+                <Literal>
+                    <ID>Message</ID>
+                    <Default></Default>
+                    <ToolTip>Message to be logged</ToolTip>
+                </Literal>
+            </Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
